@@ -1,0 +1,14 @@
+.header {
+  //background: url("../../assets/images/header-fone.png") 50% -250px / cover no-repeat, black;
+  background: url("../../assets/images/header-fon.png") fixed, black;
+  background-size: cover;
+  width: 100%;
+  height: 754px;
+  &__nav {
+    margin-left: auto;
+  }
+}
+
+.even-columns {
+
+}

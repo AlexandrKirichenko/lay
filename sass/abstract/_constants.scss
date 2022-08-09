@@ -1,0 +1,23 @@
+@use "sass:math";
+$clrPrimary: #000000FF;
+$clrDark: black;
+$clrLight: #ffffff;
+$clrBgLightDark: rgba(245, 245, 245, 1);
+$clrLightGrey: #CCCCCC;
+$clrOrange: #F98837;
+
+
+$minWidth: 320px;
+$maxWidth: 1920px;
+$contentWidth: 1116px; //142
+$containerPadding: 142px;
+
+//$containerWidth: $maxWidthContainer + $containerPadding;
+//breakpoints
+//$md1: math.div($containerWidth, 16) + em;
+//$md2: math.div(991.98, 16) + em;
+//$md3: math.div(767.98, 16) + em;
+//$md4: math.div(479.98, 16) + em;
+$md1: 40em;
+$md2: 65em;
+$md3: 90em;

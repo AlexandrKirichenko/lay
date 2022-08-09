@@ -1,0 +1,20 @@
+html:focus-within {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  @extend %font-primary;
+  @include font($size: 1.4rem, $height: inherit, $weight: 400);
+  color: $clrPrimary;
+}
+
+img,svg {
+  max-width: 100%;
+  display: block;
+}
+
+.bg-gray {
+  background-color: $clrLightGrey;
+}

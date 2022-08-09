@@ -1,0 +1,32 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 23px 8px;
+  background-color: $clrDark;
+  box-shadow: 0 0 0 100vmax $clrDark;
+  clip-path: inset(0 -100vmax);
+}
+
+.logo {
+  background-image: url("../../assets/svg/logo.svg");
+  width: 79px;
+  height: 27px;
+  display: inline-block;
+}
+
+.nav {
+  display: flex;
+  gap: 48px;
+}
+
+.nav__link {
+  list-style: none;
+  color: $clrLight;
+  &:hover,
+  &:focus {
+    color: $clrOrange;
+    @extend %transition;
+  }
+}
